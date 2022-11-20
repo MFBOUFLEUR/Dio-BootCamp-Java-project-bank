@@ -63,6 +63,7 @@ public abstract class Conta {
         System.out.println("CLIENTE: " + cliente.getNome());
         System.out.println("CPF: " + cliente.getCpf());
         System.out.println(String.format("Agencia: %d", this.agencia));
+        System.out.println(String.format("Conta nº: %d", this.numero));
         System.out.println(String.format("Saldo: R$ %.2f", this.saldo));
         System.out.println("-------------------------------------");
 
